@@ -24,3 +24,88 @@ h1{
 .inner{
     color: rgb(38, 218, 238);
 }
+/* style the app */
+.todo_app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    width: 300px;
+    background-color: #333;
+    margin-top: 3rem;
+    box-shadow: 12px 12px 12px rgb(65, 213, 239);
+}
+.userinfo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+   
+}
+.avatar{
+    background-color: aqua;
+    width: 18px;
+    height: 18px;
+    padding: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.name h2{
+    color: aqua;
+}
+.todos{
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: #333;
+    width: 299px;
+    height: 300px;
+    margin: 0;
+    overflow-y: scroll;
+}
+.item_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 12px;
+    border: 1px solid rgb(7, 107, 130);
+}
+.box1{
+    color: wheat;
+}
+.icons{
+    display: flex;
+    gap: 12px;
+}
+.plus{
+    background-color: rgb(24, 65, 77);
+    padding: 10px;
+    border-radius: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.star{
+    background-color: #ff0303;
+    padding: 12px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    margin: 22px;
+    padding: 10px;
+    gap: 12px;
+}
+.input{
+    border: 0;
+    outline: 0;
+    background-color: #222;
+    color: wheat;
+    /* width: 100%; */
+}
