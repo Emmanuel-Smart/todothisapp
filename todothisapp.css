@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* container styles */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #222;
+    flex-direction: column;
+}
+h1{
+    color: #999;
+    font-family: sans-serif;
+}
+.line{
+    width: 120px;
+    height: 2px;
+    background-color: hsl(121, 100%, 58%);
+    margin-top: -15px;
+}
+.inner{
+    color: rgb(38, 218, 238);
+}
